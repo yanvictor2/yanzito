@@ -109,6 +109,7 @@
 
 #         print(
 #             f'o numero que eu pensei esta entre {numeros_que_o_pc_esta_pensando - 5} e {numeros_que_o_pc_esta_pensando + 5}')
+#         print(f' o numero que o computador pensou enta entre {random.}')
 #################################################################################################################
 # Ordenação de Números: Peça ao usuário que insira três números e exiba-os em ordem crescente.
 #################################################################################################################
@@ -124,28 +125,43 @@
 # Classificação de Idade: Crie um programa que pergunte ao usuário sua idade e, com base nessa idade, classifique-o em uma das seguintes categorias:
 # bebê, criança, adolescente, adulto jovem, adulto ou idoso.
 #################################################################################################################
-idade = int(input('digite sua idade: '))
-if idade <= 3:
-  print('voce e um bebe')
-elif idade  <= 12:
- print('voce e uma criança')
-elif idade <=18:
-  print('voce e um adolescente')
-elif idade <=24:
-  print('voce e jovem')
-elif idade <= 60:
-  print('voce e adulto')
-else:
-  print('voce e um idoso')
+# idade = int(input('digite sua idade: '))
+# if idade <= 3:
+#   print('voce e um bebe')
+# elif idade  <= 12:
+#  print('voce e uma criança')
+# elif idade <=18:
+#   print('voce e um adolescente')
+# elif idade <=24:
+#   print('voce e jovem')
+# elif idade <= 60:
+#   print('voce e adulto')
+# else:
+#   print('voce e um idoso')
 
-  
+
 #################################################################################################################
 # Verificação de Paridade: Peça ao usuário para inserir um número e informe se ele é par ou ímpar.
 #################################################################################################################
+# n = int(input('digite um numero'))
+# resto = n % 2
+# if resto == 0:
+#   print('o seu numero e par :)')
+# else:
+#   print('o seu numero e impar')
 #################################################################################################################
-# Decisão de Jogo: Crie um programa que simula uma decisão em um jogo. Pergunte ao jogador se ele quer abrir a porta 1, 2 ou 3. Em seguida, informe o resultado com base na escolha.
+# Decisão de Jogo: Crie um programa que simula uma decisão em um jogo. Pergunte ao jogador se ele quer abrir a porta 1, 2 ou 3. Em seguida, informe o
+# resultado com base na escolha.
 #################################################################################################################
-#################################################################################################################
+# import random
+
+# escolha = int(input('digite um das portas ->>> 1,2 ou 3: '))
+# escolha_do_pc = random.randint(1,3)
+# if escolha == escolha_do_pc:
+#   print(' voce acertou a porta')
+# else:
+#   print('franguinho voce errou a porta ')
+# #################################################################################################################
 # Solicite ao usuário que insira sua nota e, com base nessa nota, exiba sua classificação (A, B, C, D ou F).
 #################################################################################################################
 #################################################################################################################
@@ -153,8 +169,46 @@ else:
 
 #################################################################################################################
 # Comparação de Idades: Peça a idade de dois usuários e informe qual deles é mais velho, mais novo ou se têm a mesma idade.
+
+#############################################################################################################
 # Contagem Crescente: Escreva um programa que imprima os números de 1 a 10.
+
+#############################################################################################################
 # Tabuada de Multiplicação: Crie um programa que solicite ao usuário um número e imprima a tabuada de multiplicação desse número de 1 a 10.
+
+#############################################################################################################
+n = int(input('digite qual tabuada voce quer ver'))
+n1 = n * 1
+n2 = n * 2
+n3 = n * 3
+n4 = n * 4
+n5 = n * 5
+n6 = n * 6
+n7 = n * 7
+n8 = n * 8
+n9 = n * 9
+n10 = n * 10
+print(15*"=")
+print(f' A TABUADA DE {n}:')
+print(15*"=")
+print(f'{n} * 1 ={n1}')
+print(f'{n} * 2 = {n2}')
+print(f'{n} * 3 = {n3}')
+print(f'{n} * 4 = {n4}')
+print(f'{n} * 5 = {n5}')
+print(f'{n} * 6 = {n6}')
+print(f'{n} * 7 = {n7}')
+print(f'{n} * 8 = {n8}')
+print(f'{n} * 9 = {n9}')
+print(f'{n} * 10 = {n10}')
+print(15*"=")
+
 # Soma dos Números Pares: Escreva um programa que calcule e imprima a soma dos números pares de 1 a 100.
+
+#############################################################################################################
 # Lista de Compras: Crie um programa que peça ao usuário para inserir cinco itens de uma lista de compras e, em seguida, imprima cada item.
+
+#############################################################################################################
 # Tabuada Personalizada: Faça um programa que peça ao usuário um número e, em seguida, imprima a tabuada de multiplicação desse número de 1 a 10, mas apenas os resultados ímpares.
+
+#############################################################################################################
