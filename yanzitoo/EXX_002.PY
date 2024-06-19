@@ -81,19 +81,19 @@ def l():
 
 # Exercício 7:
 # Verifique se o número 4 é par. Use o operador == para comparar se o resto da divisão por 2 é igual a 0. Armazene e imprima o resultado.
-l()
+# l()
 
-a = 4
+# a = 4
 
-b = 3
+# b = 3
 
-c = a / b
+# c = a / b
 
-if c % 2 == 0:
-    print('é divisivel')
-else:
-    print('NÃO')
-l()
+# if c % 2 == 0:
+#     print('é divisivel')
+# else:
+#     print('NÃO')
+# l()
 
 # Exercício 8:
 # Verifique se uma pessoa com 18 anos é maior de idade (18 anos ou mais). Use o operador >= e armazene o resultado em uma variável booleana, depois imprima o resultado.
